@@ -1,7 +1,7 @@
 (function ($) {
     "use strict";
 
-    const deadline = new Date("Dec 14, 2020 10:00:00").getTime();
+    const deadline = new Date("Feb 16, 2021 11:00:00").getTime();
     const x = setInterval(() => {
         const now = new Date().getTime();
         const t = deadline - now;
