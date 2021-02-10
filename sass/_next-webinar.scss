@@ -1,0 +1,247 @@
+/************Team css start***************/
+.next-webinar {
+  position: relative;
+  z-index: 99;
+  height: 315px;
+  overflow: hidden;
+  background: linear-gradient(269.01deg, #00AFCA 7.44%, rgba(82, 174, 50, 0.25) 128.4%);
+
+  @media #{$small_mobile} {
+    height: 195px;
+  }
+
+  @media #{$large_mobile} {
+    height: 195px;
+  }
+
+  &:after {
+    position: absolute;
+    top: 90px;
+    width: 330px;
+    height: 500px;
+    content: "";
+    background-image: url(../pic/cell-4.svg);
+    right: 0;
+    background-repeat: no-repeat;
+
+    @media #{$small_mobile} {
+      display: none;
+    }
+
+    @media #{$large_mobile} {
+      display: none;
+    }
+  }
+
+  &:before {
+    position: absolute;
+    top: -120px;
+    width: 215px;
+    height: 508px;
+    content: "";
+    background-image: url(../pic/cell-3.svg);
+    left: 0;
+    background-repeat: no-repeat;
+
+    @media #{$small_mobile} {
+      display: none;
+    }
+
+    @media #{$large_mobile} {
+      display: none;
+    }
+  }
+
+  p {
+    font-size: 24px;
+  }
+
+  .text {
+    font-size: 60px;
+    color: $white_color;
+    text-shadow: 2px 2px 4px #004D4F;
+
+    @media #{$small_mobile} {
+      font-size: 20px;
+    }
+
+    @media #{$large_mobile} {
+      font-size: 20px;
+    }
+
+    @media #{$big_screen} {
+      font-size: 35px;
+    }
+  }
+
+  .btn_3 {
+    width: 400px;
+    border-radius: 10px;
+    background-color: $font_12;
+    border: none;
+    color: $white_color;
+    font-size: 24px;
+    text-transform: uppercase;
+
+    @media #{$small_mobile} {
+      width: 100%;
+      font-size: 14px;
+    }
+
+    @media #{$large_mobile} {
+      font-size: 14px;
+      width: 100%;
+    }
+
+    @media #{$tab} {
+      margin-top: 20px;
+    }
+
+    @media #{$medium_device} {
+      margin-top: 20px;
+    }
+  }
+
+  @media #{$medium_device} {
+    
+  }
+  .our_ability_member_text {
+    @media #{$small_mobile} {
+      padding-left: 0;
+    }
+
+    @media #{$large_mobile} {
+      padding-left: 0;
+    }
+
+    @media #{$tab_device} {
+      padding-left: 0;
+    }
+
+    @media #{$medium_device} {
+      padding-left: 0;
+    }
+
+    h5 {
+      font-family: $font_stack_1;
+      color: #556172;
+      font-size: 14px;
+      font-weight: 500;
+      position: relative;
+      padding-left: 75px;
+      text-transform: uppercase;
+
+      &:after {
+        position: absolute;
+        left: 0;
+        top: 10px;
+        height: 2px;
+        width: 60px;
+        content: "";
+        background-color: $btn_bg;
+      }
+    }
+
+    h2 {
+      font-size: 42px;
+      font-weight: 600;
+      margin-bottom: 24px;
+      position: relative;
+      @media #{$tab} {
+        font-size: 22px;
+        margin-bottom: 10px;
+        line-height: 35px;
+        margin-top: 15px;
+      }
+
+      @media #{$medium_device} {
+        font-size: 28px;
+        margin-bottom: 20px;
+        line-height: 40px;
+      }
+    }
+
+    p {
+      line-height: 1.929;
+      margin-bottom: 30px;
+
+      @media #{$small_mobile} {
+        margin-bottom: 10px;
+      }
+
+      @media #{$large_mobile} {
+        margin-bottom: 20px;
+      }
+
+      @media #{$tab_device} {
+        margin-bottom: 20px;
+      }
+
+      @media #{$medium_device} {}
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      margin-bottom: 30px;
+
+      @media #{$small_mobile} {
+        margin-bottom: 10px;
+      }
+
+      @media #{$large_mobile} {
+        margin-bottom: 20px;
+      }
+
+      @media #{$tab_device} {
+        margin-bottom: 20px;
+      }
+
+      @media #{$medium_device} {}
+
+      li {
+        display: inline-block;
+        margin-bottom: 20px;
+        font-size: 16px;
+        padding-right: 33px;
+        padding-top: 12px;
+        color: $heading_color;
+        width: 50%;
+        float: left;
+        font-family: $font_stack_2;
+        position: relative;
+        padding-left: 29px;
+        @media #{$tab} {
+          padding-top: 5px;
+          padding-right: 15px;
+        }
+        span{
+          margin-right: 10px;
+          color: $btn_bg;
+          position: absolute;
+          top: 16px;
+          left: 0;
+          @media #{$tab} {
+            top: 10px;
+          }
+        }
+      }
+    }
+
+    .btn_2 {
+      margin-top: 13px;
+    }
+  }
+}
+.top_service{
+  @media #{$tab}{
+    padding: 0 0 70px;
+    .our_ability_img{
+      margin-top: 25px;
+    }
+  }
+  @media #{$medium_device}{
+  
+  }
+}

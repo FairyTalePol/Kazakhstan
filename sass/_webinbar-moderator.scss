@@ -1,0 +1,240 @@
+/************Team css start***************/
+.webinar-moderator {
+  position: relative;
+  z-index: 99;
+
+  p {
+    font-size: 24px;
+  }
+
+  .text {
+    font-size: 60px;
+    color: $white_color;
+    text-shadow: 2px 2px 4px #004D4F;
+  }
+
+  h1 {
+    font-size: 34px;
+    text-transform: uppercase;
+
+    @media #{$small_mobile} {
+      font-size: 16px;
+    }
+
+    @media #{$large_mobile} {
+      font-size: 16px;
+    }
+  }
+  .company-slider {
+    height: 169px;
+    background: linear-gradient(269.71deg, rgba(0, 175, 202, 0.2) 17.66%, rgba(0, 175, 202, 0) 105.42%);
+  }
+
+  .position {
+    text-transform: uppercase;
+  }
+
+  .fio {
+    text-transform: uppercase;
+    color: $font-11;
+  }
+
+  .card {
+    background: linear-gradient(261.47deg, rgba(0, 175, 202, 0.4) 18.42%, #FFFFFF 114.89%);
+    border: none;
+
+    @media #{$small_mobile} {
+      border-radius: 0;
+    }
+
+    @media #{$large_mobile} {
+      border-radius: 0;
+    }
+
+    .hat {
+      padding: 50px 0 0 0;
+
+      @media #{$small_mobile} {
+        padding: 27px 0 0 0;
+      }
+
+      @media #{$large_mobile} {
+        padding: 27px 0 0 0;
+      }
+    }
+
+    .card-text {
+      color: #006474;
+      text-transform: uppercase;
+      line-height: 1.2;
+      font-size: 18px;
+
+      @media #{$small_mobile} {
+        font-size: 12px;
+      }
+
+      @media #{$large_mobile} {
+        font-size: 12px;
+      }
+
+      @media #{$big_screen} {
+        font-size: 16px;
+      }
+
+      &.title {
+        font-size: 36px;
+
+        @media #{$small_mobile} {
+          font-size: 16px;
+        }
+
+        @media #{$large_mobile} {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  @media #{$medium_device} {
+    
+  }
+  .our_ability_member_text {
+    @media #{$small_mobile} {
+      padding-left: 0;
+    }
+
+    @media #{$large_mobile} {
+      padding-left: 0;
+    }
+
+    @media #{$tab_device} {
+      padding-left: 0;
+    }
+
+    @media #{$medium_device} {
+      padding-left: 0;
+    }
+
+    h5 {
+      font-family: $font_stack_1;
+      color: #556172;
+      font-size: 14px;
+      font-weight: 500;
+      position: relative;
+      padding-left: 75px;
+      text-transform: uppercase;
+
+      &:after {
+        position: absolute;
+        left: 0;
+        top: 10px;
+        height: 2px;
+        width: 60px;
+        content: "";
+        background-color: $btn_bg;
+      }
+    }
+
+    h2 {
+      font-size: 42px;
+      font-weight: 600;
+      margin-bottom: 24px;
+      position: relative;
+      @media #{$tab} {
+        font-size: 22px;
+        margin-bottom: 10px;
+        line-height: 35px;
+        margin-top: 15px;
+      }
+
+      @media #{$medium_device} {
+        font-size: 28px;
+        margin-bottom: 20px;
+        line-height: 40px;
+      }
+    }
+
+    p {
+      line-height: 1.929;
+      margin-bottom: 30px;
+
+      @media #{$small_mobile} {
+        margin-bottom: 10px;
+      }
+
+      @media #{$large_mobile} {
+        margin-bottom: 20px;
+      }
+
+      @media #{$tab_device} {
+        margin-bottom: 20px;
+      }
+
+      @media #{$medium_device} {}
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      margin-bottom: 30px;
+
+      @media #{$small_mobile} {
+        margin-bottom: 10px;
+      }
+
+      @media #{$large_mobile} {
+        margin-bottom: 20px;
+      }
+
+      @media #{$tab_device} {
+        margin-bottom: 20px;
+      }
+
+      @media #{$medium_device} {}
+
+      li {
+        display: inline-block;
+        margin-bottom: 20px;
+        font-size: 16px;
+        padding-right: 33px;
+        padding-top: 12px;
+        color: $heading_color;
+        width: 50%;
+        float: left;
+        font-family: $font_stack_2;
+        position: relative;
+        padding-left: 29px;
+        @media #{$tab} {
+          padding-top: 5px;
+          padding-right: 15px;
+        }
+        span{
+          margin-right: 10px;
+          color: $btn_bg;
+          position: absolute;
+          top: 16px;
+          left: 0;
+          @media #{$tab} {
+            top: 10px;
+          }
+        }
+      }
+    }
+
+    .btn_2 {
+      margin-top: 13px;
+    }
+  }
+}
+.top_service{
+  @media #{$tab}{
+    padding: 0 0 70px;
+    .our_ability_img{
+      margin-top: 25px;
+    }
+  }
+  @media #{$medium_device}{
+  
+  }
+}

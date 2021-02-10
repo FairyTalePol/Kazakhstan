@@ -1,0 +1,7 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "^6.2",
+        "league/oauth2-google": "^3.0",
+        "ossbrownie/esputnik": "^0.1.3"
+    }
+}

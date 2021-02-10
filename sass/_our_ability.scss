@@ -1,0 +1,340 @@
+/************Team css start***************/
+.start-webinar {
+  position: relative;
+  z-index: 99;
+  height: 426px;
+  overflow: hidden;
+  background-image: url(../pic/bg-block.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  @media #{$small_mobile} {
+    height: 190px;
+  }
+
+  @media #{$large_mobile} {
+    height: 190px;
+  }
+
+  &:after {
+    position: absolute;
+    top: -10px;
+    width: 427px;
+    height: 508px;
+    content: "";
+    background-image: url(../pic/cell-2.svg);
+    right: 0;
+    background-repeat: no-repeat;
+
+    @media #{$small_mobile} {
+      display: none;
+    }
+
+    @media #{$large_mobile} {
+      display: none;
+    }
+
+    @media #{$big_screen} {
+      top: -20px;
+      right: -180px;
+    }
+  }
+
+  &:before {
+    position: absolute;
+    top: -40px;
+    width: 400px;
+    height: 508px;
+    content: "";
+    background-image: url(../pic/cell-1.svg);
+    left: 0;
+    background-repeat: no-repeat;
+
+    @media #{$small_mobile} {
+      display: none;
+    }
+
+    @media #{$large_mobile} {
+      display: none;
+    }
+
+    @media #{$big_screen} {
+      top: -50px;
+      left: -160px;
+    }
+  }
+
+  p {
+    font-size: 24px;
+  }
+
+  .text {
+    font-size: 60px;
+    color: $white_color;
+    text-shadow: 2px 2px 4px #004D4F;
+
+    @media #{$small_mobile} {
+      font-size: 20px;
+    }
+
+    @media #{$large_mobile} {
+      font-size: 20px;
+    }
+  }
+
+  .days {
+    position: relative;
+
+    &:before {
+      position: absolute;
+      top: 65px;
+      left: 20px;
+      width: 10px;
+      height: 10px;
+      content: "дни";
+      font-size: 16px;
+
+      @media #{$small_mobile} {
+        font-size: 8px;
+        top: 25px;
+        left: 5px;
+      }
+
+      @media #{$large_mobile} {
+        font-size: 8px;
+        top: 25px;
+        left: 5px;
+      }
+    }
+  }
+
+  .hours {
+    position: relative;
+
+    &:before {
+      position: absolute;
+      top: 65px;
+      left: 15px;
+      width: 10px;
+      height: 10px;
+      content: "часы";
+      font-size: 16px;
+
+      @media #{$small_mobile} {
+        font-size: 8px;
+        top: 25px;
+        left: 3px;
+      }
+
+      @media #{$large_mobile} {
+        font-size: 8px;
+        top: 25px;
+        left: 3px;
+      }
+    }
+  }
+
+  .minutes {
+    position: relative;
+
+    &:before {
+      position: absolute;
+      top: 65px;
+      left: 5px;
+      width: 10px;
+      height: 10px;
+      content: "минуты";
+      font-size: 16px;
+
+      @media #{$small_mobile} {
+        font-size: 8px;
+        top: 25px;
+        left: -2px;
+      }
+
+      @media #{$large_mobile} {
+        font-size: 8px;
+        top: 25px;
+        left: -2px;
+      }
+    }
+  }
+
+  .btn_3 {
+    margin-top: 70px;
+    margin-bottom: 150px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: $font_12;
+    border: none;
+    color: $white_color;
+    font-size: 24px;
+    text-transform: uppercase;
+
+    @media #{$small_mobile} {
+      width: 100%;
+      font-size: 14px;
+      margin-top: 70px;
+      margin-bottom: 0;
+    }
+
+    @media #{$large_mobile} {
+      width: 100%;
+      font-size: 14px;
+      margin-top: 70px;
+      margin-bottom: 0;
+    }
+
+    @media #{$tab} {
+      margin-top: 20px;
+    }
+
+    @media #{$medium_device} {
+      margin-top: 20px;
+    }
+  }
+
+  @media #{$medium_device} {
+    
+  }
+  .our_ability_member_text {
+    @media #{$small_mobile} {
+      padding-left: 0;
+    }
+
+    @media #{$large_mobile} {
+      padding-left: 0;
+    }
+
+    @media #{$tab_device} {
+      padding-left: 0;
+    }
+
+    @media #{$medium_device} {
+      padding-left: 0;
+    }
+
+    h5 {
+      font-family: $font_stack_1;
+      color: #556172;
+      font-size: 14px;
+      font-weight: 500;
+      position: relative;
+      padding-left: 75px;
+      text-transform: uppercase;
+
+      &:after {
+        position: absolute;
+        left: 0;
+        top: 10px;
+        height: 2px;
+        width: 60px;
+        content: "";
+        background-color: $btn_bg;
+      }
+    }
+
+    h2 {
+      font-size: 42px;
+      font-weight: 600;
+      margin-bottom: 24px;
+      position: relative;
+      @media #{$tab} {
+        font-size: 22px;
+        margin-bottom: 10px;
+        line-height: 35px;
+        margin-top: 15px;
+      }
+
+      @media #{$medium_device} {
+        font-size: 28px;
+        margin-bottom: 20px;
+        line-height: 40px;
+      }
+    }
+
+    p {
+      line-height: 1.929;
+      margin-bottom: 30px;
+
+      @media #{$small_mobile} {
+        margin-bottom: 10px;
+      }
+
+      @media #{$large_mobile} {
+        margin-bottom: 20px;
+      }
+
+      @media #{$tab_device} {
+        margin-bottom: 20px;
+      }
+
+      @media #{$medium_device} {}
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      margin-bottom: 30px;
+
+      @media #{$small_mobile} {
+        margin-bottom: 10px;
+      }
+
+      @media #{$large_mobile} {
+        margin-bottom: 20px;
+      }
+
+      @media #{$tab_device} {
+        margin-bottom: 20px;
+      }
+
+      @media #{$medium_device} {}
+
+      li {
+        display: inline-block;
+        margin-bottom: 20px;
+        font-size: 16px;
+        padding-right: 33px;
+        padding-top: 12px;
+        color: $heading_color;
+        width: 50%;
+        float: left;
+        font-family: $font_stack_2;
+        position: relative;
+        padding-left: 29px;
+        @media #{$tab} {
+          padding-top: 5px;
+          padding-right: 15px;
+        }
+        span{
+          margin-right: 10px;
+          color: $btn_bg;
+          position: absolute;
+          top: 16px;
+          left: 0;
+          @media #{$tab} {
+            top: 10px;
+          }
+        }
+      }
+    }
+
+    .btn_2 {
+      margin-top: 13px;
+    }
+  }
+}
+.top_service{
+  @media #{$tab}{
+    padding: 0 0 70px;
+    .our_ability_img{
+      margin-top: 25px;
+    }
+  }
+  @media #{$medium_device}{
+  
+  }
+}
